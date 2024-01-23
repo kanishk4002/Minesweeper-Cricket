@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MINESWEEPER CRICKET</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="grid-size-select">
+      Grid Size:
+      <select id="grid-size-select">
+        <option value="0">6*6</option>
+        <option value="1">7*7</option>
+      </select>
+    </div>
+    <div class="difficulty-level-select">
+      Difficulty Level:
+      <select id="difficulty-level">
+        <option value="0">Easy</option>
+        <option value="1">Medium</option>
+        <option value="2">Tough</option>
+      </select>
+    </div>
+    <div class="minesweeper-cricket">
+      <h2>MINESWEEPER CRICKET</h2>
+      <style>
+        .clicked {
+          background-color: #9dff00; /* Apply a different background color */
+        }
+        </style>
+    </div>
+    <div id="game-board"></div>
+    <div class="score-card">Score: <span id="score">0</span></div>
+    <div class="lives-card">Free-Hits: <span id="lives">0</span></div>
+    <button id="start-button">Start Game</button>
+    <div class="Rules"> <a href=Rules.html>Rules</a></div>
+    <div class="owner">
+      <a href=owner.html>Made By</a>
+    </div>
+    <audio id="win-audio" src="DHONI.mp3"></audio>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

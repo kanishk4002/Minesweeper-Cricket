@@ -1,0 +1,142 @@
+body {
+    background-color: #f6f6f6;
+    background-image: url("https://th.bing.com/th/id/OIP.yvwqZaT813W0xFX7DR9I4gHaE8?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+  }
+  .block {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(221, 221, 221, 0.5);
+    border: 2px solid #888;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+  }
+  .score-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f6efef;
+    background-color: #040d03;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .game-over-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f44336;
+    margin-bottom: 20px;
+  }
+  .start-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #af534c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .minesweeper-cricket {
+    font-size: 21px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    position: absolute;
+    top: -30px;
+    left: 408px;
+  }
+  .grid-size-select {
+    font-size: 25px;
+    color: #040d03;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+  }
+  .difficulty-level-select {
+    font-size: 25px;
+    color: #040d03;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  }
+  .Rules {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: #ffcc00;
+    color: #ffffff;
+    border: 2px solid #ff9900;
+    transform: rotate(-5deg);
+  }
+  .owner {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    border: 2px solid #ccc;
+    transform: rotate(5deg);
+  }
+  .lives-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f6efef;
+    background-color: #040d03;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  

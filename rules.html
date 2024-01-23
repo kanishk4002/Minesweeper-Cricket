@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RULES</title>
+    <link rel="stylesheet" type="text/css" href="stylerule.css">
+</head>
+<body>
+    <pre class="rule"><h1>Minesweeper Cricket game:</h1>
+
+        <h2>Objective:</h2>
+        
+        The objective of the game is to score a certain number of runs before reaching the score limit or clicking on a block that contains a fielder.
+        
+        <h3>Game Setup:</h3>
+        
+        Select the grid size (6x6 or 7x7) and the difficulty level (Easy, Medium, Tough).
+        The game board is displayed as a grid of blocks.
+        Fielder blocks are randomly placed on the game board.
+        NoBall blocks are randomly placed on the game board.
+        The player starts with a score of 0.
+        
+        <h3>Gameplay:</h3>
+        
+        Click on a block to reveal its content.
+        If the clicked block contains a fielder, the game ends or the number of Free-Hits reduces by one depending on the number of lives at that time.
+        if the clicked block contains a NoBall, the number of Free-Hits increases by one.
+        If the clicked block contains a run value (1, 2, 4, 6), the score is increased by the corresponding value.
+        The player's score is displayed on the scorecard.
+        Remaining number of Free-Hits allowed is displayed on the scorecard.
+        
+        <h3>Scoring:</h3>
+        
+        Each run value (1, 2, 4, 6) represents the number of runs scored by the player.
+        The player's score is incremented by the run value when a block with a run value is clicked.
+        
+        
+        <h3>Win Condition:</h3>
+        
+        The player wins the game if their score reaches or exceeds the score limit defined by the selected difficulty level.
+        A victory message is displayed when the game in which player's score equals or excceds the scorelimit in that difficulty level ends.
+        
+        <h3>Lose Condition:</h3>
+        
+        The player loses the game if the remaining number of Free-Hits is 0 and they click on a block that contains a fielder.
+        A game over message is displayed when the game is lost.
+        
+        <h3>Restarting the Game:</h3>
+        
+        After a game ends (either win or lose), the player can click the "Start Game" button to reset the game and play again.
+        At any point during the game, the player can click the "Start Game" button to reset the game and start from the beginning.
+        This allows the player to restart the game and clear the current progress, including the score and any revealed blocks.
+
+        <h3>Revealing all the unclicked Blocks:</h3>
+
+        All the unclicked Blocks gets revealed on their own after the game ends.
+        </pre>
+</body>
+</html>
